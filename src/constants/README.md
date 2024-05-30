@@ -1,0 +1,1 @@
+This folder should contain global varaible and devseal brand variables across the application

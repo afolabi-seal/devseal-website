@@ -1,0 +1,1 @@
+This folder is meant to hold defined type for across the application
