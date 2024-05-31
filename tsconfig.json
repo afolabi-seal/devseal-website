@@ -19,12 +19,14 @@
     ],
     "paths": {
       "@/*": ["./src/*"],
-      "@/atom" : ["./src/components/atom"],
-      "@/molecule" : ["./src/components/molecule"],
-      "@/organism" : ["./src/components/organism"],
-      "@/components" : ["./src/components"],
-      "@/constants" : ["./src/constants"],
-      "@/models" : ["./src/models"]
+      "@/atom/*" : ["./src/components/atom/*"],
+      "@/molecule/*" : ["./src/components/molecule/*"],
+      "@/organism/*" : ["./src/components/organism/*"],
+      "@/components/*" : ["./src/components/*"],
+      "@/constants/*" : ["./src/constants/*"],
+      "@/models/*" : ["./src/models/*"],
+      "@/hooks/*" : ["./src/hooks/*"],
+      "@/public/*" : ["./public/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

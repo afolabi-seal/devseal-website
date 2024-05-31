@@ -15,14 +15,23 @@ const config: Config = {
       xl: "1280px",
       "2xl": "1536px",
     },
-    colors:{
+  
+    fontFamily:{
+      sans : ["Outfit", "sans-serif"],
+      plus : ["Plus Jakarta Sans", "sans-serif"]
     },
     extend: {
+      colors:{
+        "seal-primary-50" : 'rgba(2, 69, 253, 0.2)',
+        "seal-primary-100" : "#0245FD",
+        "seal-secondary-100" : "#CCDAFF",
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+
     },
   },
   plugins: [],
